@@ -33,7 +33,7 @@
 
     setTimeout(() => {
       const tree = store.getTree();
-      const datum = tree.data[2]  // random card
+      const datum = tree.data[1]  // random card
       console.log(datum.data.data)
       f3.handlers.cardToMiddle({ datum, svg, svg_dim: svg.getBoundingClientRect(), transition_time: 2000 })
     }, 4000)
