@@ -1157,8 +1157,8 @@
       "first name": "Titik",
       "last name": "Sri Purwanti",
       "birthday": "",
-      "avatar": "",
-      "lokasi": ""
+      "avatar": "https://live.staticflickr.com/65535/54178848078_f718d2fa87_m.jpg",
+      "lokasi": "Klaten"
     },
     "rels": {
       "mother": "9ff39669-1184-47e3-bfda-b53fffd1a1d0",
@@ -1180,7 +1180,7 @@
       "first name": "Ida",
       "last name": "Andung Prihatin",
       "birthday": "",
-      "avatar": "",
+      "avatar": "https://live.staticflickr.com/65535/54179018025_13209b7b34_m.jpg",
       "lokasi": "Klaten"
     },
     "rels": {
@@ -1266,7 +1266,7 @@
       "last name": "",
       "birthday": "",
       "avatar": "",
-      "lokasi": ""
+      "lokasi": "Klaten"
     },
     "rels": {
       "spouses": [
