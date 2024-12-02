@@ -1,16 +1,18 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-  <title>Trah Karto Dirjo</title>
+  <title>my-family-chart</title>
   <script src="https://unpkg.com/d3@6"></script>
-   <script type="module" src="https://unpkg.com/family-chart@0.0.0"></script>
+  <script type="module" src="https://unpkg.com/family-chart@0.0.0"></script>
   <link rel="stylesheet" href="https://unpkg.com/family-chart@0.0.0/dist/styles/family-chart.css">
 </head>
+
 <body>
-  <div id="FamilyChart" class="f3" style="width:100%;height:900px;margin:auto;background-color:rgb(33,33,33);color:#fff;"></div>
+  <div id="FamilyChart" class="f3"
+    style="width:100%;height:900px;margin:auto;background-color:rgb(33,33,33);color:#fff;"></div>
   <script type="module">
     const store = f3.createStore({
       data: data(),
@@ -21,14 +23,14 @@
     const Card = f3.elements.Card({
       store,
       svg,
-      card_dim: {w:220,h:70,text_x:75,text_y:15,img_w:60,img_h:60,img_x:5,img_y:5},
-      card_display: [i=>`${i.data["first name"]||""} ${i.data["last name"]||""}`,i=>`${i.data.birthday||""}`],
+      card_dim: { w: 220, h: 70, text_x: 75, text_y: 15, img_w: 60, img_h: 60, img_x: 5, img_y: 5 },
+      card_display: [i => `${i.data["first name"] || ""} ${i.data["last name"] || ""}`, i => `${i.data.birthday || ""}`],
       mini_tree: true,
       link_break: false
     })
     store.setOnUpdate(props => f3.view(store.getTree(), svg, Card, props || {}))
-    store.updateTree({initial: true})
-    
+    store.updateTree({ initial: true })
+
     function data() {
       return [
         {
@@ -472,7 +474,7 @@
           "id": "d652671c-2698-4d80-aa0e-09de1e41134f",
           "data": {
             "gender": "F",
-            "first name": "Siti",
+            "first name": "Wasiti",
             "last name": "",
             "birthday": "",
             "avatar": ""
@@ -545,7 +547,7 @@
           "id": "8b501858-a066-4b3f-bfea-22004a169581",
           "data": {
             "gender": "F",
-            "first name": "Koran",
+            "first name": "Kiran",
             "last name": "",
             "birthday": "",
             "avatar": ""
@@ -721,6 +723,9 @@
             "father": "341e1cf1-ad8c-4332-9bbd-63d2f01eedef",
             "spouses": [
               "c3a0977f-9551-4da1-8e6c-19f3b6a02bb5"
+            ],
+            "children": [
+              "b909db59-fe9d-46a9-89dc-91c6d8a79bb9"
             ]
           }
         },
@@ -768,6 +773,9 @@
           "rels": {
             "spouses": [
               "93f607ae-b5ef-4dac-879a-d59ca88f2ad9"
+            ],
+            "children": [
+              "b909db59-fe9d-46a9-89dc-91c6d8a79bb9"
             ]
           }
         },
@@ -775,7 +783,7 @@
           "id": "45cbefa5-c792-43a3-b5e6-5aa86e81cff1",
           "data": {
             "gender": "F",
-            "first name": "Walyanti",
+            "first name": "Waliyanti",
             "last name": "",
             "birthday": "",
             "avatar": ""
@@ -852,6 +860,9 @@
             "father": "589172f9-8a78-4e67-93e5-d0b72a1c5ab3",
             "spouses": [
               "89939536-f9d6-4be5-96e2-81415be2b6a4"
+            ],
+            "children": [
+              "f303a426-3490-498c-a64b-b33497915538"
             ]
           }
         },
@@ -867,6 +878,9 @@
           "rels": {
             "spouses": [
               "d25950ab-3c5e-432d-b3ae-2fc552ef2c84"
+            ],
+            "children": [
+              "f303a426-3490-498c-a64b-b33497915538"
             ]
           }
         },
@@ -1021,10 +1035,39 @@
             "mother": "00edb9d2-6d7d-48de-9687-e04005872a20",
             "father": "ffcfad64-79ed-454f-aa7a-0237288259c2"
           }
+        },
+        {
+          "id": "f303a426-3490-498c-a64b-b33497915538",
+          "data": {
+            "gender": "F",
+            "first name": "Keynara",
+            "last name": "",
+            "birthday": "",
+            "avatar": ""
+          },
+          "rels": {
+            "father": "89939536-f9d6-4be5-96e2-81415be2b6a4",
+            "mother": "d25950ab-3c5e-432d-b3ae-2fc552ef2c84"
+          }
+        },
+        {
+          "id": "b909db59-fe9d-46a9-89dc-91c6d8a79bb9",
+          "data": {
+            "gender": "M",
+            "first name": "Bilal",
+            "last name": "",
+            "birthday": "",
+            "avatar": ""
+          },
+          "rels": {
+            "father": "93f607ae-b5ef-4dac-879a-d59ca88f2ad9",
+            "mother": "c3a0977f-9551-4da1-8e6c-19f3b6a02bb5"
+          }
         }
       ]
     }
 
   </script>
 </body>
+
 </html>
