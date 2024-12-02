@@ -24,7 +24,7 @@
       store,
       svg,
       card_dim: { w: 220, h: 70, text_x: 75, text_y: 15, img_w: 60, img_h: 60, img_x: 5, img_y: 5 },
-      card_display: [i => `${i.data["first name"] || ""} ${i.data["last name"] || ""}`, i => `${i.data.birthday || ""}`],
+      card_display: [i => `${i.data["first name"] || ""} ${i.data["last name"] || ""}`, d => `${d.data["location"]}`],
       mini_tree: true,
       link_break: false
     })
@@ -114,7 +114,7 @@
           "id": "c70887ef-b321-4288-b6ea-4f9f181d13a4",
           "data": {
             "gender": "F",
-            "first name": "Alm. Sariyem",
+            "first name": "Sariyem",
             "last name": "",
             "birthday": "",
             "avatar": "",
@@ -129,7 +129,7 @@
           "id": "33384aab-6803-496d-95e3-78ead46dafb6",
           "data": {
             "gender": "F",
-            "first name": "Alm. Sarinten",
+            "first name": "Sarinten",
             "last name": "",
             "birthday": "",
             "avatar": "",
@@ -144,7 +144,7 @@
           "id": "3bf1009b-8ffc-49c9-9ebb-d9bd180ea4d5",
           "data": {
             "gender": "M",
-            "first name": "Alm. Rajiyo",
+            "first name": "Rajiyo",
             "last name": "",
             "birthday": "",
             "avatar": "",
@@ -152,7 +152,10 @@
           },
           "rels": {
             "father": "0",
-            "mother": "1a6b0e80-8441-444b-8acc-217ea889adf6"
+            "mother": "1a6b0e80-8441-444b-8acc-217ea889adf6",
+            "spouses": [
+              "9ff39669-1184-47e3-bfda-b53fffd1a1d0"
+            ]
           }
         },
         {
@@ -234,7 +237,8 @@
             "last name": "Iriyanto",
             "birthday": "",
             "avatar": "",
-            "lokasi": ""
+            "lokasi": "",
+            "location": "Lampung"
           },
           "rels": {
             "mother": "0858cc6e-4e45-40d0-947d-1a79e5cf3ffc",
@@ -256,7 +260,8 @@
             "last name": "",
             "birthday": "",
             "avatar": "",
-            "lokasi": ""
+            "lokasi": "",
+            "location": "Jakarta"
           },
           "rels": {
             "mother": "0858cc6e-4e45-40d0-947d-1a79e5cf3ffc",
@@ -300,7 +305,8 @@
             "last name": "Wahyuno",
             "birthday": "",
             "avatar": "",
-            "lokasi": ""
+            "lokasi": "",
+            "location": "Jakarta"
           },
           "rels": {
             "mother": "0858cc6e-4e45-40d0-947d-1a79e5cf3ffc",
@@ -323,7 +329,8 @@
             "last name": "",
             "birthday": "",
             "avatar": "",
-            "lokasi": ""
+            "lokasi": "",
+            "location": "Klaten"
           },
           "rels": {
             "mother": "0858cc6e-4e45-40d0-947d-1a79e5cf3ffc",
@@ -341,7 +348,8 @@
             "last name": "Murwaningsih",
             "birthday": "",
             "avatar": "",
-            "lokasi": ""
+            "lokasi": "",
+            "location": "Jakarta"
           },
           "rels": {
             "mother": "0858cc6e-4e45-40d0-947d-1a79e5cf3ffc",
@@ -364,7 +372,8 @@
             "last name": "Prihatin",
             "birthday": "",
             "avatar": "",
-            "lokasi": ""
+            "lokasi": "",
+            "location": "Jakarta"
           },
           "rels": {
             "mother": "0858cc6e-4e45-40d0-947d-1a79e5cf3ffc",
@@ -477,7 +486,8 @@
             "first name": "Wasiti",
             "last name": "",
             "birthday": "",
-            "avatar": ""
+            "avatar": "",
+            "location": "Jakarta"
           },
           "rels": {
             "spouses": [
@@ -517,7 +527,8 @@
             "first name": "Siti",
             "last name": "Noor Yulian Sari",
             "birthday": "",
-            "avatar": ""
+            "avatar": "",
+            "location": "Jakarta"
           },
           "rels": {
             "mother": "d652671c-2698-4d80-aa0e-09de1e41134f",
@@ -597,7 +608,8 @@
             "first name": "Pratama Nur",
             "last name": "Wijaya",
             "birthday": "",
-            "avatar": ""
+            "avatar": "",
+            "location": "Yogyakarta"
           },
           "rels": {
             "mother": "476c24a9-0e09-4414-a61c-794c8bf466a0",
@@ -665,7 +677,8 @@
             "first name": "Rosita Nur",
             "last name": "Pratiwi",
             "birthday": "",
-            "avatar": ""
+            "avatar": "",
+            "location": "Lampung"
           },
           "rels": {
             "mother": "476c24a9-0e09-4414-a61c-794c8bf466a0",
@@ -680,7 +693,7 @@
           "data": {
             "gender": "M",
             "first name": "Agus",
-            "last name": "",
+            "last name": "Suryono",
             "birthday": "",
             "avatar": ""
           },
@@ -1062,6 +1075,21 @@
           "rels": {
             "father": "93f607ae-b5ef-4dac-879a-d59ca88f2ad9",
             "mother": "c3a0977f-9551-4da1-8e6c-19f3b6a02bb5"
+          }
+        },
+        {
+          "id": "9ff39669-1184-47e3-bfda-b53fffd1a1d0",
+          "data": {
+            "gender": "F",
+            "first name": "Sabitah",
+            "last name": "",
+            "birthday": "",
+            "avatar": ""
+          },
+          "rels": {
+            "spouses": [
+              "3bf1009b-8ffc-49c9-9ebb-d9bd180ea4d5"
+            ]
           }
         }
       ]
