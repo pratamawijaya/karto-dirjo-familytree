@@ -203,7 +203,7 @@
       "last name": "Iriyanto",
       "birthday": "",
       "avatar": "",
-      "lokasi": "",
+      "lokasi": "Lampung",
       "location": "Lampung"
     },
     "rels": {
@@ -295,7 +295,7 @@
       "last name": "",
       "birthday": "",
       "avatar": "",
-      "lokasi": "",
+      "lokasi": "Klaten",
       "location": "Klaten"
     },
     "rels": {
@@ -453,7 +453,8 @@
       "last name": "",
       "birthday": "",
       "avatar": "",
-      "location": "Jakarta"
+      "location": "Jakarta",
+      "lokasi": "Jakarta"
     },
     "rels": {
       "spouses": [
@@ -575,7 +576,8 @@
       "last name": "Wijaya",
       "birthday": "",
       "avatar": "",
-      "location": "Yogyakarta"
+      "location": "Yogyakarta",
+      "lokasi": "Yogyakarta"
     },
     "rels": {
       "mother": "476c24a9-0e09-4414-a61c-794c8bf466a0",
