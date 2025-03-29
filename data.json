@@ -17,7 +17,7 @@
       "first name": "Bp. Karto",
       "last name": "Dirjo",
       "birthday": "",
-      "avatar": "",
+      "avatar": "https://live.staticflickr.com/65535/54417001534_0960bd8e2e_w.jpg",
       "gender": "M",
       "lokasi": ""
     }
@@ -29,7 +29,7 @@
       "first name": "Alm. Sarimin",
       "last name": "Madyo Purwanto",
       "birthday": "",
-      "avatar": "",
+      "avatar": "https://live.staticflickr.com/65535/54417062853_a86f96e126_w.jpg",
       "lokasi": "",
       "other_parent": ""
     },
@@ -52,10 +52,10 @@
     "id": "643f8fa4-6d21-41da-9122-dba78c2a31e2",
     "data": {
       "gender": "M",
-      "first name": "Alm. Sarindi",
+      "first name": "Alm. Bp Sarindi",
       "last name": "Yoso Wiharto",
       "birthday": "",
-      "avatar": "",
+      "avatar": "https://live.staticflickr.com/65535/54417201730_ef4214184a_w.jpg",
       "lokasi": ""
     },
     "rels": {
@@ -118,10 +118,10 @@
     "id": "3bf1009b-8ffc-49c9-9ebb-d9bd180ea4d5",
     "data": {
       "gender": "M",
-      "first name": "Rajiyo",
+      "first name": "Alm. Bp Rajiyo",
       "last name": "",
       "birthday": "",
-      "avatar": "",
+      "avatar": "https://live.staticflickr.com/65535/54417200535_e8798b3001_w.jpg",
       "lokasi": ""
     },
     "rels": {
@@ -734,7 +734,7 @@
     "id": "a7ffc1af-3e9f-4bb2-94e5-a63087d0bf04",
     "data": {
       "gender": "F",
-      "first name": "Rohyati",
+      "first name": "Alm. Rohyati",
       "last name": "",
       "birthday": "",
       "avatar": "https://live.staticflickr.com/65535/54179123299_cd185e183a_m.jpg",
