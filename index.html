@@ -38,9 +38,18 @@
         link_break: false
       })
 
+      // store.setOnUpdate(props => f3.view(store.getTree(), svg, Card, props || {}))
+      // store.updateMainId('0')  // set to kartodirjo
+      // store.updateTree({ initial: true })
       store.setOnUpdate(props => f3.view(store.getTree(), svg, Card, props || {}))
-      store.updateMainId('0')  // set to kartodirjo
       store.updateTree({ initial: true })
+
+      setTimeout(() => {
+        const tree = store.getTree();
+        const datum = tree.data[1]
+        console.log(datum.data.data)
+        f3.handlers.cardToMiddle({ datum, svg, svg_dim: svg.getBoundingClientRect(), transition_time: 2000 })
+      }, 4000)
 
       // with person_id this function will update the tree
       function updateTreeWithNewMainPerson(person_id, animation_initial = true) {
